@@ -11,27 +11,30 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 70px;
 }
 
 nav .img{
     /* border: 1px solid black; */
-    width: 80px;
-    height: 40px;
+    width: 130px;
+    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 nav .img h2{
-    font-size: 14px;
+    font-size: 22px;
+    margin-left: 4px;
     font-family: sans-serif;
 }
 nav #list{
     /* border: 1px solid green; */
     height: 35px;
-    width: 300px;
+    width: 580px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 nav #list ul{
@@ -42,8 +45,79 @@ nav #list ul{
 
 #list ul li{
     list-style-type: none;
-    margin: 0 5px;
+    margin: 0 18px;
     padding: 0 5px;
-    font-size: 12px;
+    
+}
+
+#list ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
     font-family: sans-serif;
 }
+
+header .head{
+    background-color: #224b3b;
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.head .head1{
+    /* border: 1px solid red; */
+    width: 520px;
+    margin-left: 80px;
+}
+
+.head .head1 h1{
+    color: white;
+    font-size: 46px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+
+.head .head1 p{
+    color: rgb(193, 193, 193);
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.head .btn{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+.head .btn #shop{
+    padding: 10px 20px;
+    background-color: yellow;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.head .btn #explore{
+    padding: 10px 15px;
+    border: 2px solid rgb(214, 214, 214);
+    background-color:  #224b3b;
+    border-radius: 15px;
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+    color: white;
+}
+
+.head .head2{
+    /* border: 1px solid red; */
+    margin-right: 80px;
+}
+.head .head2 img{
+    width: 380px;
+    height: 380px;
+
+}
+

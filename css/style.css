@@ -7,7 +7,7 @@ body{
 }
 nav{
     background-color: white;
-    /* border: 1px solid red; */
+    /* border: 1px solid red;  */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -90,6 +90,7 @@ header .head{
 .head .btn{
     /* border: 1px solid red; */
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .head .btn #shop{
@@ -102,14 +103,40 @@ header .head{
 
 .head .btn #explore{
     padding: 10px 15px;
-    border: 2px solid rgb(214, 214, 214);
-    background-color:  #224b3b;
+    border: 2px solid rgba(255, 255, 255, 0.3); 
+    background: transparent;
     border-radius: 15px;
     font-size: 20px;
-    color: black;
+    color: #fff;
     margin-left: 10px;
-    color: white;
+    
 }
+.head .btn #explore:hover{
+    background-color: transparent;
+    border: 2px solid gainsboro; 
+}
+.head .btn #shop:hover{
+    
+    border: 2px solid gainsboro; 
+}
+
+
+#explore {
+    padding: 10px 15px;
+    border: 2px  rgba(255, 255, 255, 0.3); 
+    background: #2f2f2f;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect */
+  #explore:hover {
+    background-color: black;
+  }
+  
 
 .head .head2{
     /* border: 1px solid red; */
@@ -121,3 +148,56 @@ header .head{
 
 }
 
+nav ul li a:hover{
+    border-bottom: 2px solid rgb(5, 61, 5);
+    }
+
+
+.firstsec {
+    padding: 112px;
+    display: flex;
+}
+
+.main1 {
+    width: 520px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    color: #2f2f2f;
+}
+
+.main1 h2{
+    font-size: 32px;
+}
+
+.main1 p{
+    font-size: 14px;
+    width: 400px;
+    padding: 30px 0px 30px 0px;
+    
+}
+.main2 {
+    border: #224b3b;
+    display: flex;
+    padding: 80px;
+}
+.main2 img
+{
+    width: 200px;
+    height: 200px;
+    padding: 0px 50px 50px 50px;
+}
+.main2 h3
+{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 50px;
+    padding: 0px 70px;
+    
+}
+.main2 p
+{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 50px;
+    padding: 0px 110px;
+}

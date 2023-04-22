@@ -201,3 +201,53 @@ nav ul li a:hover{
     font-weight: 50px;
     padding: 0px 110px;
 }
+.secondsec
+{
+    padding: 112px;
+    display: flex;
+    border: 1px solid red;
+}
+.train1
+{
+    width: 900px;
+    margin-left: 80px;
+    font-family: sans-serif;
+    color: #2f2f2f; 
+    border:1px solid red;
+    
+}
+.train2 
+{
+    width:700px;
+    padding-right: 300px;
+    font-family: sans-serif;
+    color: #2f2f2f;
+    
+    
+    border:1px solid red;
+}
+.train2 h3
+{
+    font-size: 32px;
+    
+    
+}
+.train2 p
+{
+    font-size: 14px;
+    /* width: 400px; */
+    
+    
+}
+
+.train3
+{
+    border:1px solid red;
+    /* padding-left: 80px; */
+}
+.train1 .train4
+{
+    display: flex;
+    flex-direction: column;
+}
+

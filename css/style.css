@@ -250,4 +250,14 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
 }
+.footer
+{
+    background-color:rgb(255,255,255);
+    border: 1px solid black;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
 

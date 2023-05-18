@@ -73,7 +73,8 @@ header .head{
     margin-left: 80px;
 }
 
-.head .head1 h1{
+.head .head1 h1
+{
     color: white;
     font-size: 46px;
     font-family: sans-serif;
@@ -87,134 +88,8 @@ header .head{
     margin-bottom: 10px;
 }
 
-.head .btn{
-    /* border: 1px solid red; */
-    margin-top: 20px;
-    cursor: pointer;
-}
 
-.head .btn #shop{
-    padding: 10px 20px;
-    background-color: rgb(176, 130, 12);
-    border-radius: 15px;
-    font-size: 20px;
-    color: black;
-}
-
-.head .btn #explore{
-    padding: 10px 15px;
-    border: 2px solid rgba(255, 255, 255, 0.3); 
-    background: transparent;
-    border-radius: 15px;
-    font-size: 20px;
-    color: #fff;
-    margin-left: 10px;
-    
-}
-.head .btn #explore:hover{
-    background-color: transparent;
-    border: 2px solid gainsboro; 
-}
-.head .btn #shop:hover{
-    
-    border: 2px solid gainsboro; 
-}
-
-
-#explore {
-    padding: 10px 15px;
-    border: 2px  rgba(255, 255, 255, 0.3); 
-    background: #2f2f2f;
-    border-radius: 15px;
-    font-size: 20px;
-    color: #fff;
-    margin-left: 10px;
-    cursor: pointer;
-  }
-  
-  /* Hover effect */
-  #explore:hover {
-    background-color: black;
-  }
-  
-
-.head .head2{
-    /* border: 1px solid red; */
-    margin-right: 80px;
-}
-.head .head2 img{
-    width: 380px;
-    height: 380px;
-
-}
-
-nav ul li a:hover{
-    border-bottom: 2px solid rgb(5, 61, 5);
-    }
-
-
-.firstsec {
-    padding: 112px;
-    display: flex;
-}
-
-.main1 {
-    width: 520px;
-    margin-left: 80px;
-    font-family: sans-serif;
-    color: #2f2f2f;
-}
-
-.main1 h2{
-    font-size: 32px;
-}
-
-.main1 p{
-    font-size: 14px;
-    width: 400px;
-    padding: 30px 0px 30px 0px;
-    
-}
-.main2 {
-    border: #224b3b;
-    display: flex;
-    padding: 80px;
-}
-.main2 img
-{
-    width: 200px;
-    height: 200px;
-    padding: 0px 50px 50px 50px;
-}
-.main2 h3
-{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 50px;
-    padding: 0px 70px;
-    
-}
-.main2 p
-{
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 50px;
-    padding: 0px 110px;
-}
-.secondsec {
-    padding: 0px 112px;
-    /* display: flex; */
-}
-.train1
-{
-    width: 900px;
-    margin-left: 80px;
-    font-family: sans-serif;
-    color: #2f2f2f; 
-    /* border:1px solid red; */
-    
-}
-.train2 
+/* .train2 
 {
     width:700px;
     padding-right: 300px;
@@ -223,7 +98,7 @@ nav ul li a:hover{
     
     
     /* border:1px solid red; */
-}
+
 /* .img1
 {
     display: flex;
@@ -246,17 +121,12 @@ nav ul li a:hover{
     
 }
 
-.train3
-{
-    
-    padding-left: 80px;
-}
 /* .train1 .train4
 {
     display: flex;
     flex-direction: column;
 } */
-.footer
+/* .footer
 {
     background-color:rgb(255,255,255);
     border: 1px solid black;
@@ -265,11 +135,11 @@ nav ul li a:hover{
     justify-content: space-around;
     align-items: center;
    
-}
-.train4
+} */
+/* .train4
 {
     display: flex;
-}
+} */
 .thirdsec 
 {
     padding: 0px 112px;
@@ -293,11 +163,24 @@ nav ul li a:hover{
 
 .footer
 {
-    background-color:rgb(255,255,255);
-    border: 1px solid black;
+    width: 100%;
+    /* position: absolute; */
+    /* background-color:rgb(255,255,255); */
+    background-color: #224b3b;;
+    bottom: 0;
+    padding: 100px 0 30px;
+    font-size: 14px;
+    line-height: 22px ;
+    /* border: 1px solid black;
     height: 400px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center; */
    
+}
+.row
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
 }

@@ -4,12 +4,336 @@
     
     <title>About Us</title>
     <link rel ="stylesheet" href="../css/style.css">
-    <script>alert("Welcome to About us page")</script>
+    
     <style>
+         #list a:hover {
+            color: #224b3b;
+            transition: 0.12s ease-in;
+        }
+
+        #list .home {
+            color: #224b3b;
+        }
+        #list button:hover{
+            color: rgb(15, 96, 102);
+        }
+        #head1 .explore:hover
+        {
+            border: 2px solid red;     
+        }
+         /* Hover effect */
+         nav ul li a:hover
+        {
+            border-bottom: 2px solid rgb(5, 61, 5);
+        }
+
+        .about
+        {
+            display: flex;
+            font-family: sans-serif;
+            padding: 120px;
+        }
+        .members h2
+        {
+            margin-top: 120px;
+        }
+        .members h3{
+           
+        }
+        .members a
+        {
+            color: darkred;
+        }
+        .members a:hover
+        {
+            color: blue;
+        }
+        .team :hover
+        {
+            transform: translate(0px,3px);
+            background-color: lightgray;
+        }
+        .details p
+        {
+            margin-top: 20px;
+        }
+        .image
+        {
+            margin-left: 150px;
+            margin-bottom: 200px;
+        }
+        .title h1
+        {
+            text-align: center;
+        }
+        .team
+        {
+            display: flex;
+        }
+        
+        .members
+        {
+            background-color: burlywood;
+            box-sizing: border-box;
+            box-shadow: 0px 5px 10px;
+            width: 20%;
+            margin: 50px;
+            text-align: center;
+            height: 400px;
+            cursor: pointer;
+        }
+         .img1
+        {
+            
+            border-radius: 1000px;
+            width: 40%;
+            height: 130px;
+            text-align: center;
+            cursor: pointer;
+        }
+        .img1 :hover
+        {
+           
+        }
+        .member
+        {
+            width: 40%;
+            height: 400px;
+            background-color: burlywood;
+            box-sizing: border-box;
+            box-shadow: 0px 5px 10px;
+            text-align: center;
+            margin-left: 150px;
+            cursor: pointer;
+        }
+        .member h2
+        {
+            font-size: 40px;
+        }
+        .member h3
+        {
+            font-size: 30px;
+        }
+        .member p
+        {
+            font-size: 25px;
+            margin-top: 30px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        .name
+        {
+            margin-top: 10px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+        }
+        .name input
+        {
+            margin-left: 5px;
+            width: 40%;
+        }
+        .email
+        {
+            margin-bottom: 40px;
+            margin-left: 20px;
+        }
+        .email input
+        {
+            margin-left: 5px;
+            width: 40%;
+        }
+        .message
+        {
+            margin-bottom: 40px;
+            margin-left: 20px;
+        }
+        .message input
+        {
+            width: 40%;
+        }
+        .contact
+        {
+            box-sizing: border-box;
+            box-shadow: 0px 5px 8px;
+            width: 50%;
+            height: 300px;
+            background-color: lightgray;
+            text-align: center;
+        }
+        .contact button
+        {
+            font-size: medium;
+            color: white;
+            border: 2px;
+            background-color:black;
+            width: 10%;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+        .contact button:hover
+        {
+            background-color: gray;
+            transform: translate(0px 3px);
+        }
+        .contact h1
+        {
+            text-align: center;
+        }
+        
 
     </style>
 </head>
+<body>
+    <header>
+        <!--Navigation Bar-->
+        <nav>
+            <div class="img">
+                <img src="../img/realLogo.png" alt="logo" width="50px" height="50px" />
+                <h2>Focal</h2>
+            </div>
+            <div id="list">
+                <ul>
+                    <li><a href="../index.html" >Home</a></li>       <!-- Linking with other website -->
+                    <li><a href="../html/product.html" >Products</a></li>
+                    <li><a href="../html/research.html">Research</a></li>
+                    <li><a href="../html/blog.html">Blog</a></li>
+                    <li><a href="../html/about.html" class="home">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <main>
+        <div class="about">
+            <div class="details" >
+                <h1>About Us</h1>
+                <p style="line-height: 30px;">Our camera business is committed to providing the best imaging solutions,
+                and we are deeply passionate about photography. We have developed our 
+                skills in designing top-of-the-line cameras that meet the various needs
+                of photographers throughout the world thanks to our years of experience
+                in the field. Our commitment to innovation and technological
+                development enables us to provide cutting-edge features and exceptional 
+                image quality. We support giving photographers the freedom to express
+                their creativity and record special moments with unrivaled clarity and
+                precision. Whether you're a skilled professional or a passionate hobbyist,
+                our cameras are made to motivate and improve your photographic experience.</p>
+                </div>
+            <div class="image">
+                <img src="../img/1.png" style="position: relative; bottom: 100px;">
+            </div>
+        </div>
 
+        <div class="title" style=" position: relative; left: 0px; bottom: 400px;">
+            <h1>Our Team</h1>
+        </div>
+            <div class="team">   
+            <div class="members" style=" position: relative; left: 200px; bottom: 400px;">
+                <div class="img1" style="position: relative; left: 20px; top: 20px;  "   >
+                    <img src="../img/Aayush.png" alt="camera" width="300px" height="200px">
+                </div>
+                <h2>Aayush Raj Panta </h2>
+                <h3>Web designer</h3>
+                <a href="">More info</a>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="members" style=" position: relative; left: 200px; bottom: 400px;">
+                <div class="img1" style="position: relative; left: 20px; top: 20px;  "   >
+                    <img src="../img/Gaurav.png" alt="camera" width="300px" height="200px">
+                </div>
+                <h2>Gaurav Neupane </h2>
+                <h3>Sales Manager</h3>
+                <a href="">More info</a>
+            </div>
+            <div class="members" style=" position: relative; left: 200px; bottom: 400px;">
+                <div class="img1" style="position: relative; left: 20px; top: 20px;  "   >
+                    <img src="../img/Archana.jpg" alt="camera" width="300px" height="200px">
+                </div>  
+                <h2>Archana Chapagai </h2>  
+                <h3>Managing director</h3>
+                <a href="">More info</a>
+            </div>
+            </div>
+
+            <div class="team">   
+            <div class="members" style=" position: relative; left: 200px; bottom: 400px;">
+                <div class="img1" style="position: relative; left: 20px; top: 20px;  "   >
+                    <img src="../img/sabin.png" alt="camera" width="300px" height="200px">
+                </div>
+                <h2>Sabin Gauchan </h2>
+                <h3>Founder</h3>
+                <a href="">More info</a>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="member" style=" position: relative; left: 200px; bottom: 350px;">
+                <h2>Sabin Gauchan </h2>
+                <h3>Team Leader</h3>
+                <p>Graphics designer in Islingtion College(2022-2023). Has vast knowledge of HTML,css
+                    and Javascript. Motivated to lead the team in the right direction.
+                </p>
+            </div>
+            </div>
+
+            <div class="contact"style=" position: relative; left: 400px; bottom: 280px;">
+                <h1>Contact us</h1>
+                <div class="name">
+                <label>Name:</label>
+                <input type="text">
+                </div>
+                <div class="email">
+                <label>Email:</label>
+                <input type="text">
+                </div>
+                <div class="message">
+                <label>Message:</label>
+                <input type="text">
+                </div>
+                <button class="Submit" >Submit </button>
+            </div>
+           
+    </main>
+        <!-- footer -->
+
+        <footer class="footer">                                                                 <!--Creation of footer tag-->
+            <div class="row">
+                <div class="container1">
+                    <h3>Contact Us</h3>
+                    <p>Contact Us for Photographic Products</p>
+                </div>
+                <div class="container2">
+                    <h1>Focal</h1>
+                    <p>Our Services Include Of Giving Services To Our Customeers And We Provide Warranty Services</p>
+                </div>
+                <div class="container3">
+                    <h3>FOCAL</h3>
+                    <ul>
+                        <li><a href="./index.html" class="home">Home</a></li>
+                        <li><a href="./html/product1.html" class="home">Products</a></li>
+                        <li><a href="./html/research.html" class="home">Research</a></li>
+                        <li><a href="./html/blog.html" class="home">Blog</a></li>
+                        <li><a href="./html/about.html" class="home">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="container4">
+                    <h3>USE LINKS</h3>
+                    <ul>
+                        <li>Warranty</li>
+                        <li>Services</li>
+                        <li>Support</li>
+                        <li>Events</li>
+                        <li>News</li>
+                    </ul>
+                </div>
+            </div>
+         </footer>
+  
+</body>
+</html>
 
                                                         
                                                         

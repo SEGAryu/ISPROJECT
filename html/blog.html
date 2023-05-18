@@ -18,6 +18,11 @@
         #list .home {
             color: #224b3b;
         }
+          /* Hover effect */
+        nav ul li a:hover
+        {
+            border-bottom: 2px solid rgb(5, 61, 5);
+        }
         .blog
         {
             padding: 80px;
@@ -79,17 +84,7 @@
             height: auto;
         }
 
-        @media only screen and (max-width: 800px) {
-            .blog1 h2 {
-                font-size: 28px;
-                font-family: sans-serif;
-            }
-            
-            .blog1 p {
-                font-size: 20px;
-                font-family: sans-serif;
-            }
-        }
+        
                 
     </style>
 </head>
@@ -102,11 +97,11 @@
             </div>
             <div id="list">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Research</a></li>
-                    <li><a href="#"class="home">blog</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="../index.html" >Home</a></li>       <!-- Linking with other website -->
+                  <li><a href="../html/product1.html">Products</a></li>
+                  <li><a href="../html/research.html" >Research</a></li>
+                  <li><a href="../html/blog.html" class="home">Blog</a></li>
+                  <li><a href="../html/about.html">About Us</a></li>
                 </ul>
             </div>
         </nav>

@@ -3,10 +3,10 @@
 <head>
     
     <title>Products</title>
-    <!--Linking to external css-->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">                     <!--Linking to external css-->
     <script>alert("Welcome to Product page")</script>
-    <style>
+    <!--Internal css-->
+    <style>                                                        
         #list a:hover {
             color: #224b3b;
             transition: 0.12s ease-in;
@@ -48,7 +48,6 @@
         .img1 h2{
         margin-top: 50px;
         }
-      
         h3{
         font-size: 15px;
         color: black;
@@ -111,12 +110,9 @@
         }
         a{
         color: white;
-        }
-        .img1 a:hover{
-        color: lightgray;
-        }
-       
-    </style>
+        text-decoration: none;
+        } 
+    </style>                <!--closing internal css-->>
 </head>
 <body>
     <header>
@@ -128,7 +124,8 @@
             </div>
             <div id="list">
                 <ul>
-                    <li><a href="../index.html" >Home</a></li>       <!-- Linking with other website -->
+                    <!-- Linking with other website -->
+                    <li><a href="../index.html" >Home</a></li>       
                     <li><a href="../html/product.html" class="home">Products</a></li>
                     <li><a href="../html/research.html">Research</a></li>
                     <li><a href="../html/blog.html">Blog</a></li>

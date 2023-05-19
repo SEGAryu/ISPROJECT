@@ -3,6 +3,11 @@
 <head>
     
     <title>About Us</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="About Us page">
+    <meta name="keywords" content="HTML, CSS,JavaScript">
+    <meta name="author" content="Archana Chapagai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel ="stylesheet" href="../css/style.css">
     <script src="../JavaScript/script.js"></script>
     <style>
@@ -10,7 +15,6 @@
             color: #224b3b;
             transition: 0.12s ease-in;
         }
-
         #list .home {
             color: #224b3b;
 
@@ -236,9 +240,6 @@
                 <h2>Aayush Raj Panta </h2>
                 <h3>Web designer</h3>
                 <a href="">More info</a>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
             </div>
             <div class="members" style=" position: relative; left: 200px; bottom: 400px;">
                 <div class="img1" style="position: relative; left: 70px; top: 20px;  "   >
@@ -266,9 +267,6 @@
                 <h2>Sabin Gauchan </h2>
                 <h3>Founder</h3>
                 <a href="../html/sabin.html">More info</a>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-instagram"></i>
             </div>
             <div class="member" style=" position: relative; left: 200px; bottom: 350px;">
                 <h2>Sabin Gauchan </h2>
@@ -281,19 +279,21 @@
 
             <div class="contact"style=" position: relative; left: 400px; bottom: 280px;">
                 <h1>Contact us</h1>
-                <div class="name">
-                <label>Name:</label>
-                <input type="text" id="name">
-                </div>
-                <div class="email">
-                <label>Email:</label>
-                <input type="text" id="email">
-                </div>
-                <div class="message">
-                <label>Message:</label>
-                <input type="text" id="message">
-                </div>
-                <button class="Submit" >Submit </button>
+                <form name="validation" onsubmit="Sabin()">
+                    <div class="name">
+                        <label>Name:</label>
+                        <input type="text" id="name">
+                    </div>
+                    <div class="email">
+                        <label>Email:</label>
+                        <input type="text" id="email">
+                    </div>
+                    <div class="message">
+                        <label>Message:</label>
+                        <input type="text" id="message">
+                    </div>
+                    <button class="Submit" >Submit </button>
+                </form>
             </div>
            
     </main>
@@ -312,11 +312,11 @@
                 <div class="container3">
                     <h3>FOCAL</h3>
                     <ul>
-                        <li><a href="./index.html" class="home">Home</a></li>
-                        <li><a href="./html/product1.html" class="home">Products</a></li>
-                        <li><a href="./html/research.html" class="home">Research</a></li>
-                        <li><a href="./html/blog.html" class="home">Blog</a></li>
-                        <li><a href="./html/about.html" class="home">About Us</a></li>
+                        <li><a href="../index.html" class="home">Home</a></li>
+                        <li><a href="../html/product.html" class="home">Products</a></li>
+                        <li><a href="../html/research.html" class="home">Research</a></li>
+                        <li><a href="../html/blog.html" class="home">Blog</a></li>
+                        <li><a href="../html/about.html" class="home">About Us</a></li>
                     </ul>
                 </div>
                 <div class="container4">

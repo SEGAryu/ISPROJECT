@@ -49,6 +49,11 @@ nav #list ul{
     padding: 0 5px;
     
 }
+#list a:hover {
+    color: #224b3b;
+    transition: 0.05s ease-in;
+    
+}
 
 #list ul li a{
     text-decoration: none;
@@ -121,66 +126,10 @@ header .head{
     
 }
 
-/* .train1 .train4
-{
-    display: flex;
-    flex-direction: column;
-} */
-/* .footer
-{
-    background-color:rgb(255,255,255);
-    border: 1px solid black;
-    height: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-} */
-/* .train4
-{
-    display: flex;
-} */
-.thirdsec 
-{
-    padding: 0px 112px;
-    
-    
-}
-.thirdsec h1
-{
-    text-align: center;
-    font-size: 40px;
-    font-family: sans-serif;
-    margin-bottom: 30px;
-}
-.thirdsec .products img
-{
-    width: 200px;
-    height: 200px;
-    
-    padding: 0px 50px 50px 50px;
-}
-
 .footer
 {
-    width: 100%;
-    /* position: absolute; */
-    /* background-color:rgb(255,255,255); */
-    background-color: #224b3b;;
-    bottom: 0;
-    padding: 100px 0 30px;
+    background: #224b3b;
+    color: white;
     font-size: 14px;
-    line-height: 22px ;
-    /* border: 1px solid black;
-    height: 400px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; */
-   
-}
-.row
-{
-    width: 80%;
-    margin: auto;
-    display: flex;
+    padding: 60px;
 }

@@ -61,7 +61,11 @@ nav #list ul{
     font-size: 20px;
     font-family: sans-serif;
 }
-
+/* Hover effect */
+nav ul li a:hover
+{
+    border-bottom: 2px solid rgb(5, 61, 5);
+}
 header .head{
     background-color: #224b3b;
     border: 1px solid black;
@@ -186,6 +190,12 @@ header .head{
 {
     width: 150px;
     margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+/* Hover effect */
+.container2 h1:hover
+{
+    transform: translateY(-7px);
 }
 .container3
 {

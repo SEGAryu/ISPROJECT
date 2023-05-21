@@ -4,103 +4,131 @@
     <!--Meta Tags-->
     <meta name="description" contain="portfolio Page">
     <meta name="keyword" content="HTML,CSS,JS">
-    <title>=Sabin Gauchan</title>
-    <link rel="stylesheet"href="../cs/style.css">
+    <title>Sabin Gauchan</title>
+    <link rel="stylesheet"href="../css/style.css">
+    <style>
+        /* Internal Css */
+        #list a:hover {
+            color: #224b3b;
+            transition: 0.12s ease-in;
+        }
+
+        #list .home {
+            color: #224b3b;
+        }
+        /* Hover effect */
+        nav ul li a:hover
+        {
+            border-bottom: 2px solid rgb(5, 61, 5);
+        }
+        .table table td
+        {
+            margin-bottom: 20px;
+            font-family: sans-serif;
+            
+        }
+        
+    </style>
 </head>
 <body>
-    <header>
-        <div class="header-wrapper">
-            <!--Navigation Bar-->
-            <nav style="padding-left: 15;">
-                <a class="logo" href="../index.html"><img src="../images/logo.png"></a>
-                <Ul>
-                    <li><a href="../inder.html">Home</a></li>
-                    <li><a href="../products.html">Products</a></li>
-                    <li><a href="../research.ht5ml">Research</a></li>
-                    <li><a href="../blog.html">Blog</a></li>
-                    <li class="active"><a href="#">About Us</a></li>
-                    </Ul>
-                    <a class="cta href=contact.html">contact</a>
-                    </nav>
-                    </div>
-                    </header>
-                    <!--crating Table-->
-                    <table style="border:2px solid white; margin:auto;
-                    margin-top:10px;
-                    padding:10px;
-                    max-width:600px;">
-                    <tr>
-                        <td>
-                            <center><img src="../images/sabin.jpj" style="width: 100px" "height:100px </center>
-                            </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <center><b> PERSONAL INFORMATION</b></center>
-                                    </td>
-                                    </tr>
-                                    <tr>
-                                        <td><BR>
-                                            <center>Name-Sabin Gauchan<br>Contact Adress
-                                            Maitidevi,Kathmandu
-                                        <br>
-                                    province-Bagmati<br>
-                                Mobile Number-9836463764>
-                            </center>
-                            </td>
-                            </tr>
-                            <td><br><b>
-                            <center>CAREER OBJECTIVE</center>
-                            </b></td>
-                        </tr>
-                        <tr>
-                            <td><br>
-                            <center>To work in a technology where my knowledge<br>and experience can be needed</center>
-                        </td>
-                        </tr>
-                        <tr>
-                            <td><br><br>
-                            </td>
-                        </tr>
-                        <td><br>
-                            <center>Graduation-IT(computing)
-                                FROM ISLINGTION COLLEGE,KATHMANDU,NEPAL.</center></br>
-                            </td>
-                        <tr>
-                            <td><br><b>
-                                <center>VOLUNTRING EXPERINCE</center>
-                                </b></td>
-                        </tr>
-                        <tr>
-                            <td><br>
-                            <center> Graphics designer in Islingtion College(2022-2023).</center>
-                                
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><br><b>
-                                <center>SKILLS</center>
-                            </b></td>
-                        </tr>
-                        <tr>
-                            <td><br>
-                            <center>Qalified MYSQL user <br>
-                                -Skilled in using HTML,CSS,JavaScript<BR>
-                                    -Highly experince java programmer
-                                 </center>
-                                </td>
-                                </tr>
-                                <td class="text-center"><br><b><u>
-                                    <a herf="about.html">
-                                        <button class="button-about">Back to About US</button></u></b>
-                                    </a>
-                                </td>
-                            </body>
-                            </html>
+    <header>                        
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="img">
+                <img src="../img/realLogo.png" alt="logo" width="50px" height="50px" />
+                <h2>Focal</h2>
+            </div>
+            <div id="list">
+                <ul>
+                    
+                    <li><a href="./index.html" >Home</a></li>       <!-- Linking with other website -->
+                    <li><a href="./html/product1.html">Products</a></li>
+                    <li><a href="./html/research.html">Research</a></li>
+                    <li><a href="./html/blog.html">Blog</a></li>
+                    <li><a href="./html/about.html" class="home">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="Go back" style="margin-left: 30px;font-size: 20px; margin-top: 30px;font-family: sans-serif;">
+        <a herf="">
+            <p>Go back</p>
+        </a>
+    </div>
+    <section class="table" style="padding: 50px;">
+        <table style="border:4px solid rgb(19, 17, 17); margin:auto; margin-top:10px; padding:20px; max-width:800px;">
+            <tr>
+                <td>
+                    <center><img src="../img/sabin.JPG" style="width: 200px; padding: 20px;"</center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center><h1 style="font-size: 24px;"> PERSONAL INFORMATION</h1></center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>
+                        <p style="margin-bottom: 20px;line-height: 25px;">
+                            Name-Sabin Gauchan<br>
+                            Adress-Maitidevi,Kathmandu<br>
+                            Province-Bagmati<br>
+                            Mobile Number-9836463764
+                        </p>
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center>CAREER OBJECTIVE</center>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <center style="padding: 20px 0px;">
+                        To work in a technology where my knowledge<br>and experience can be needed
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                    <center style="margin-bottom: 20px;line-height: 25px;">
+                        Graduation-IT(computing)
+                        FROM ISLINGTION COLLEGE,KATHMANDU,NEPAL.
+                    </center></br>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                    <b>
+                        <center>VOLUNTERING EXPERINCE</center>
+                    </b>
+                </td>
+            </tr>
+            <tr>
+                <td><br>
+                <center> Graphics designer in SYMBOLIC TECH(2021-2022).</center>
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><br><b>
+                    <center>SKILLS</center>
+                </b></td>
+            </tr>
+            <tr>
+                <td>
+                    <center style="margin-bottom: 20px;line-height: 25px;">
+                        -Qualified MYSQL user <br>
+                        -Skilled in using HTML,CSS,JavaScript<BR>
+                        -Highly Experinced Java programmer
+                    </center>
+                </td>
+            </tr>
                         
-
-
-
-    
+        </table>
+    </section>
+ 
 </body>
 </html>

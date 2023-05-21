@@ -3,10 +3,13 @@
 
 <head>
     <title>Home</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">                       <!--Addition and linking of external CSS-->
+    <script>alert("Welcome to Our Webpage")</script>                      <!-- Internal Javascript for alert pop while entering the website   -->
     <style>
+        /* Internal Css */
         #list a:hover {
             color: #224b3b;
+            transition: 0.12s ease-in;
         }
 
         #list .home {
@@ -75,11 +78,13 @@
             margin-left: 10px;
             
         }
+        /* Hover effect */
         .head .btn #explore:hover
         {
             background-color: transparent;
             border: 2px solid gainsboro; 
         }
+        /* Hover effect */
         .head .btn #shop:hover{
             
             border: 2px solid gainsboro; 
@@ -112,7 +117,7 @@
             height: 380px;
 
         }
-
+        /* Hover effect */
         nav ul li a:hover
         {
             border-bottom: 2px solid rgb(5, 61, 5);
@@ -153,6 +158,12 @@
             height: 200px;
             padding: 0px 50px 50px 50px;
             border-radius: 15px;
+            transition: transform 0.5s;
+        }
+        /* Hover effect */
+        .main2 img:hover
+        {
+            transform: translateY(-7px);
         }
         .main2 h3
         {
@@ -169,20 +180,21 @@
             font-size: 16px;
             font-weight: 50px;
             padding: 0px 110px;
+            text-align: center;
         }
         .secondsec{
-            border: 1px solid red;
+            /* border: 1px solid red; */
             display: flex;
             justify-content: space-around;
         }
         .train1
         {
             width: 800px;
-            border: 1px solid black;
+            /* border: 1px solid black; */
             font-family: sans-serif;
             color: #2f2f2f;
             /* border:1px solid red; */
-            padding: 112px;
+            padding: 100px;
             
         }
         .train3
@@ -202,21 +214,73 @@
             padding: 30px 0px 30px 0px;
             
         }
+        
         .icon
         {
             padding: 15px 30px 15px 0px;
-            border: 1px solid red;
+            /* border: 1px solid red; */
             justify-content: space-around;
         }
         .icon p
         {
             font-size: 13px; 
+            font-family: sans-serif;
+        }
+        .trending
+        {
+            margin: 70px 0px;
+            padding-top: 80px;
+            align-items: center;
+        }
+        .trending h2
+        {
+            text-align: center;
+            padding-bottom: 70px;
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+        .products
+        {
+            display: flex;
+            padding: 0px 200px;
+            max-width: 1080px;
+            margin:auto;
+            /* padding:0px 25px; */
+            
+        }
+        .product
+        {
+            flex-basis: 50%;
+            min-width: 300px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-family: sans-serif;
+            transition: transform 0.5s;
+        }
+        .product h4
+        {
+            padding: 20px 0px;
+        }
+        .product img
+        {
+            width:90%;
+        }
+        /* Hover effect */
+        .product:hover
+        {
+            transform: translateY(-7px);
         }
     </style>
 </head>
 
+<!-- Body tag is created -->
+
 <body>
-    <header>
+
+        <!-- Header tag is created -->
+
+    <header>                        
+        <!-- Navigation Bar -->
         <nav>
             <div class="img">
                 <img src="./img/realLogo.png" alt="logo" width="50px" height="50px" />
@@ -224,11 +288,12 @@
             </div>
             <div id="list">
                 <ul>
-                    <li><a href="./index.html" class="home">Home</a></li>
-                    <li><a href="/html/product.html">Products</a></li>
-                    <li><a href="/html/research.html">Research</a></li>
-                    <li><a href="/html/blog.html">Blog</a></li>
-                    <li><a href="/html/about.html">About Us</a></li>
+                    
+                    <li><a href="./index.html" class="home">Home</a></li>       <!-- Linking with other website -->
+                    <li><a href="./html/product1.html">Products</a></li>
+                    <li><a href="./html/research.html">Research</a></li>
+                    <li><a href="./html/blog.html">Blog</a></li>
+                    <li><a href="./html/about.html">About Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -236,6 +301,7 @@
             <div class="head1">
                 <h1>Modern Camera Shop</h1>
                 <p>Welcome to Our Page. Hope You will like our products.</p>
+                <!-- Button -->
                 <div class="btn">
                     <button id="shop">Shop Now</button>
                     <button id="explore">Explore Now</button>
@@ -253,29 +319,27 @@
                     <h2>Excellence in Every Frame</h2>
                     <p>Make your photographic journey more better with our Focal products.</p>
                     <button id="explore">Explore</button>
-                </div>
+                </div> 
                 <div class="main2">
                     <div class="img">
                         <img src="./img/fujicam3.jpg" id="i1" alt="product 1" width="50px" height="50px" /><br>
                         <h3>FUJIFLIM GFX100S</h3><br>
-                        <!-- <p>50</p> -->
+                       
                     </div>
                     <div class="img">
                         <img src="./img/fujicam4.jpg" id="i2" alt="product 2" width="50px" height="50px" /><br>
                         <h3>FUJIFILM GFX100</h3><br>
-                        <!-- <p>50</p> -->
                     </div>
                     <div class="img">
                         <img src="./img/fujicam5.jpg" id="i3" alt="product 3" width="50px" height="50px" />  <br>
-                        <h3>FUJIFILM GFX50S`</h3><br>
-                        <!-- <p>50</p> -->
+                        <h3>FUJIFILM GFX50S</h3><br>
                     </div>
                 </div>
             </div>
             
         </section>
-        <section style="display: flex; justify-content: space-around; border: 1px solid red; height: 700px; align-items: center;">
-            <div style="width: 900px; height: 600px; border: 1px solid black;">
+        <section style="display: flex; justify-content: space-around;  height: 400px; align-items: center;">
+            <div style="width: 900px; height: 600px;  padding-left: 60px;">
                 <div class="train1">
                     <div class="train2">
                         <h3>Why Choose Us</h3>
@@ -310,49 +374,67 @@
                 </div>
 
             </div>
-            <div style="width: 600px; height: 600px; border: 1px solid black; margin-left: 80px;">
+            <div class="trainimg" style="width: 500px; height: 500px;  margin-right: 70px;">
                 <img src="./img/secondsec.jpg" alt="product" width="70%"/>
 
             </div>
         </section>
         
-        <div class="thirdsec">
-            <div class="Trending">
-                <h1>Trending Products</h1>
-            </div>
-            <div class="Products">
+        <div class="trending">                                                      <!-- Trending Products is created -->
+            <h2>Trending Products</h2>
+            <div class="products">
                 <div class="product">
-                    <img src="./img/fujicam.jpg" alt="product1" width="50px" height="50px"/>
-                    <h4>Fuji A-7</h4>
+                    <img src="./img/fujicam5.jpg" alt="product1">
+                    <h4>FUJIFLIM GFX100S</h4>
+                    <p>$500.00</p>
                 </div>
-                <div class="Products">
-                    <img src="./img/sonycam.jpg" alt="product2" width="50px" height="50px"/>
-                    <h4>Fuji A-7</h4>
+                <div class="product">
+                    <img src="./img/fujicam4.jpg" alt="product2">
+                    <h4>FUJIFLIM GFX100</h4>
+                    <p>$600.00</p>
+                </div>
+                <div class="product">
+                    <img src="./img/fujicam3.jpg" alt="product3">
+                    <h4>FUJIFLIM GFX50S</h4>
+                    <p>$550.00</p>
                 </div>
             </div>
         </div>
     </main>
-    <footer class="footer">
+
+    <!-- footer -->
+
+    <footer class="footer">                                                                 <!--Creation of footer tag-->
         <div class="row">
-            <div class="column">
-                <div class="img">
-                    <img src="./img/realLogo.png" alt="logo" width="50px" height="50px" />
-                    <h2>Focal</h2>
-                </div>
+            <div class="container1">
+                <h3>Contact Us</h3>
+                <p>Contact Us for Photographic Products</p>
             </div>
-            <div class="column">
-                
+            <div class="container2">
+                <h1>Focal</h1>
+                <p>Our Services Include Of Giving Services To Our Customeers And We Provide Warranty Services</p>
             </div>
-            <div class="column">
-                
+            <div class="container3">
+                <h3>FOCAL</h3>
+                <ul>
+                    <li><a href="./index.html" class="home">Home</a></li>
+                    <li><a href="./html/product1.html" class="home">Products</a></li>
+                    <li><a href="./html/research.html" class="home">Research</a></li>
+                    <li><a href="./html/blog.html" class="home">Blog</a></li>
+                    <li><a href="./html/about.html" class="home">About Us</a></li>
+                </ul>
             </div>
-            <div class="column">
-                
-            </div>
-            <div class="column">
-                
+            <div class="container4">
+                <h3>USE LINKS</h3>
+                <ul>
+                    <li>Warranty</li>
+                    <li>Services</li>
+                    <li>Support</li>
+                    <li>Events</li>
+                    <li>News</li>
+                </ul>
             </div>
         </div>
-    </footer>
+     </footer>
 </body>
 
